@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - NoteFinder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .privacy-container {
+            max-width: 900px;
+            margin: 100px auto 50px;
+            padding: 0 20px;
+        }
+        .privacy-header {
+            margin-bottom: 3rem;
+        }
+        .privacy-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-blue);
+            margin-bottom: 1rem;
+        }
+        .privacy-date {
+            color: var(--text-gray);
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+        }
+        .privacy-content {
+            background: var(--white);
+            padding: 3rem;
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+            line-height: 1.8;
+        }
+        .privacy-section {
+            margin-bottom: 2.5rem;
+        }
+        .privacy-section h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--primary-blue);
+            margin-bottom: 1rem;
+        }
+        .privacy-section h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .privacy-section p {
+            color: var(--text-gray);
+            margin-bottom: 1rem;
+        }
+        .privacy-section ul {
+            color: var(--text-gray);
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .privacy-section li {
+            margin-bottom: 0.5rem;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        .back-link:hover {
+            color: #1557B8;
+        }
+        .contact-info {
+            background: var(--soft-gray);
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-top: 2rem;
+        }
+        .language-selector {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            align-items: center;
+        }
+        .language-btn {
+            padding: 0.5rem 1rem;
+            border: 2px solid var(--primary-blue);
+            background: var(--white);
+            color: var(--primary-blue);
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        .language-btn:hover {
+            background: var(--primary-blue);
+            color: var(--white);
+        }
+        .language-btn.active {
+            background: var(--primary-blue);
+            color: var(--white);
+        }
+        @media (max-width: 768px) {
+            .privacy-container {
+                margin-top: 80px;
+            }
+            .privacy-content {
+                padding: 2rem 1.5rem;
+            }
+            .privacy-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="privacy-container">
+        <div class="privacy-header">
+            <a href="index.html" class="back-link">← Voltar para a página inicial</a>
+            <div class="language-selector">
+                <a href="politica-privacidade.html" class="language-btn active">Português</a>
+                <a href="politica-privacidade-en.html" class="language-btn">English</a>
+            </div>
+            <h1 class="privacy-title">Política de Privacidade</h1>
+            <p class="privacy-date"><strong>Última atualização:</strong> <span id="current-date"></span></p>
+        </div>
+
+        <div class="privacy-content">
+            <div class="privacy-section">
+                <h2>1. Introdução</h2>
+                <p>
+                    O NoteFinder ("nós", "nosso" ou "aplicativo") respeita sua privacidade e está comprometido em proteger 
+                    suas informações pessoais. Esta Política de Privacidade descreve como coletamos, usamos, armazenamos e 
+                    protegemos suas informações quando você utiliza nosso aplicativo.
+                </p>
+                <p>
+                    Ao usar o NoteFinder, você concorda com a coleta e uso de informações de acordo com esta política. 
+                    Se você não concordar com esta política, por favor, não use nosso aplicativo.
+                </p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>2. Informações que Coletamos</h2>
+                
+                <h3>2.1. Informações Fornecidas por Você</h3>
+                <p>Coletamos informações que você nos fornece diretamente ao usar o aplicativo:</p>
+                <ul>
+                    <li>Preferências e necessidades relacionadas a notebooks (objetivo de uso, orçamento, requisitos técnicos)</li>
+                    <li>Respostas a perguntas do questionário de recomendação</li>
+                    <li>Feedback e avaliações sobre as recomendações</li>
+                </ul>
+
+                <h3>2.2. Informações Coletadas Automaticamente</h3>
+                <p>Quando você usa nosso aplicativo, podemos coletar automaticamente certas informações:</p>
+                <ul>
+                    <li>Informações do dispositivo (modelo, sistema operacional, versão do Android)</li>
+                    <li>Informações de uso do aplicativo (funcionalidades acessadas, tempo de uso)</li>
+                    <li>Identificadores únicos do dispositivo (para melhorar a experiência do usuário)</li>
+                </ul>
+
+                <h3>2.3. Informações de Terceiros</h3>
+                <p>
+                    Podemos receber informações sobre você de serviços de terceiros, como o Google Play Services, 
+                    para melhorar nossos serviços e análise de uso.
+                </p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>3. Como Usamos Suas Informações</h2>
+                <p>Utilizamos as informações coletadas para os seguintes propósitos:</p>
+                <ul>
+                    <li><strong>Fornecer Recomendações Personalizadas:</strong> Analisar suas preferências para sugerir notebooks adequados ao seu perfil</li>
+                    <li><strong>Melhorar o Aplicativo:</strong> Entender como os usuários interagem com o app para aprimorar funcionalidades</li>
+                    <li><strong>Comunicação:</strong> Responder a suas solicitações, dúvidas e fornecer suporte técnico</li>
+                    <li><strong>Análise e Pesquisa:</strong> Realizar análises estatísticas para melhorar nossos algoritmos de recomendação</li>
+                    <li><strong>Segurança:</strong> Detectar e prevenir fraudes, abusos e outras atividades maliciosas</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2>4. Compartilhamento de Informações</h2>
+                <p>Não vendemos, alugamos ou comercializamos suas informações pessoais. Podemos compartilhar suas informações apenas nas seguintes situações:</p>
+                
+                <h3>4.1. Prestadores de Serviços</h3>
+                <p>
+                    Podemos compartilhar informações com prestadores de serviços terceirizados que nos ajudam a operar 
+                    o aplicativo (como serviços de hospedagem e análise), desde que esses prestadores concordem em manter 
+                    suas informações confidenciais.
+                </p>
+
+                <h3>4.2. Requisitos Legais</h3>
+                <p>
+                    Podemos divulgar suas informações se formos obrigados por lei, ordem judicial ou processo legal, 
+                    ou para proteger nossos direitos, propriedade ou segurança.
+                </p>
+
+                <h3>4.3. Com Seu Consentimento</h3>
+                <p>
+                    Podemos compartilhar suas informações com terceiros quando você nos der consentimento explícito para fazê-lo.
+                </p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>5. Armazenamento e Segurança</h2>
+                <p>
+                    Implementamos medidas de segurança técnicas e organizacionais apropriadas para proteger suas informações 
+                    contra acesso não autorizado, alteração, divulgação ou destruição. No entanto, nenhum método de transmissão 
+                    pela internet ou armazenamento eletrônico é 100% seguro.
+                </p>
+                <p>
+                    Seus dados são armazenados em servidores seguros e mantidos apenas pelo tempo necessário para cumprir 
+                    os propósitos descritos nesta política, a menos que um período de retenção mais longo seja exigido ou 
+                    permitido por lei.
+                </p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>6. Seus Direitos</h2>
+                <p>Você tem os seguintes direitos em relação às suas informações pessoais:</p>
+                <ul>
+                    <li><strong>Acesso:</strong> Solicitar uma cópia das informações pessoais que mantemos sobre você</li>
+                    <li><strong>Correção:</strong> Solicitar a correção de informações imprecisas ou incompletas</li>
+                    <li><strong>Exclusão:</strong> Solicitar a exclusão de suas informações pessoais</li>
+                    <li><strong>Oposição:</strong> Opor-se ao processamento de suas informações pessoais</li>
+                    <li><strong>Portabilidade:</strong> Solicitar a transferência de suas informações para outro serviço</li>
+                </ul>
+                <p>
+                    Para exercer esses direitos, entre em contato conosco através do email: 
+                    <a href="mailto:programmerosiel@gmail.com">programmerosiel@gmail.com</a>
+                </p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>7. Cookies e Tecnologias Similares</h2>
+                <p>
+                    Nosso aplicativo pode usar tecnologias similares a cookies para coletar informações sobre como você 
+                    usa o aplicativo. Essas informações nos ajudam a melhorar a funcionalidade e a experiência do usuário.
+                </p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>8. Links para Sites de Terceiros</h2>
+                <p>
+                    Nosso aplicativo pode conter links para sites de terceiros. Não somos responsáveis pelas práticas de 
+                    privacidade ou pelo conteúdo desses sites. Recomendamos que você leia as políticas de privacidade de 
+                    qualquer site de terceiros que visitar.
+                </p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>9. Privacidade de Menores</h2>
+                <p>
+                    Nosso aplicativo não é direcionado a menores de 13 anos. Não coletamos intencionalmente informações 
+                    pessoais de menores de 13 anos. Se descobrirmos que coletamos informações de uma criança menor de 
+                    13 anos, tomaremos medidas para excluir essas informações imediatamente.
+                </p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>10. Alterações nesta Política de Privacidade</h2>
+                <p>
+                    Podemos atualizar nossa Política de Privacidade periodicamente. Notificaremos você sobre quaisquer 
+                    alterações publicando a nova Política de Privacidade nesta página e atualizando a data de "Última 
+                    atualização" no topo desta política.
+                </p>
+                <p>
+                    Recomendamos que você revise esta Política de Privacidade periodicamente para se manter informado 
+                    sobre como protegemos suas informações.
+                </p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>11. Lei Aplicável</h2>
+                <p>
+                    Esta Política de Privacidade é regida pelas leis do Brasil. Qualquer disputa relacionada a esta 
+                    política será resolvida nos tribunais competentes do Brasil.
+                </p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>12. Contato</h2>
+                <div class="contact-info">
+                    <p>
+                        Se você tiver dúvidas, preocupações ou solicitações relacionadas a esta Política de Privacidade 
+                        ou ao processamento de suas informações pessoais, entre em contato conosco:
+                    </p>
+                    <p><strong>Email:</strong> <a href="mailto:programmerosiel@gmail.com">programmerosiel@gmail.com</a></p>
+                    <p><strong>Desenvolvedor:</strong> OSIELJ</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2024 NoteFinder. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Atualizar data automaticamente
+        const dateElement = document.getElementById('current-date');
+        if (dateElement) {
+            const today = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            dateElement.textContent = today.toLocaleDateString('pt-BR', options);
+        }
+    </script>
+</body>
+</html>
+
