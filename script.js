@@ -1,3 +1,12 @@
+// OAuth Callback Handler - Adicione isso na página GitHub Pages
+const urlParams = new URLSearchParams(window.location.search);
+const code = urlParams.get('code');
+const state = urlParams.get('state');
+
+if (code && state) {
+    window.location.href = `http://localhost:8000/auth/callback?code=${code}&state=${state}`;
+}
+
 // Menu Mobile Toggle
 const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
 const navList = document.querySelector('.nav-list');
@@ -175,4 +184,5 @@ document.querySelectorAll('a[href="#"]').forEach(link => {
         e.preventDefault();
     });
 });
+
 
